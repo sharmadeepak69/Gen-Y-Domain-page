@@ -1,0 +1,183 @@
+
+.desktop{
+	font-family: Calibri;       
+	color:#F80000 ;
+	width: 100%;
+	height: 70px;
+  padding-top: 1%;
+  box-shadow: 0 3px 2px -1px #d6d6c2;
+}
+
+.logo{
+   float:left;
+   margin: 5px 10px 15px 30px;
+}
+
+#myTopnav{
+	margin-left: 15%;
+}
+.domain{
+  font-weight: bold;
+}
+
+.topnav li{
+     position:relative; 
+	 font-size:18pt;
+	 font-weight:400; 
+	 margin:15px 15px 10px 10px;
+	 float:left; 
+	 cursor: pointer;	
+	 list-style-type: none;
+	}
+
+.topnav li a{
+	text-decoration:none;
+	color: #888888;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.topnav li a:hover {
+   color:#E00000;
+}
+
+.active-top{
+	border-bottom: 2px solid #E00000;
+}
+
+/* ---------------- Respnsive --------------------*/
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+   .desktop{
+  	display: none;
+  }
+  .mobile{
+  	display: block;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media (max-device-width: 768px) and (min-device-width: 600px) {
+  .desktop{
+  	display: none;
+  }
+  .mobile{
+  	display: block;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media (max-width: 860px) and (min-width: 768px) {
+  .mobile{
+  	display: none;
+  }
+  .desktop{
+  	display: block;
+  }
+
+  #myTopnav{
+  	margin-left: 10%;
+  }
+  .topnav li{
+  	font-size: 14.5pt;
+  	margin-left: 5px;
+  }
+
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media (max-width: 960px) and (min-width: 860px) {
+  .mobile{
+  	display: none;
+  }
+  .desktop{
+  	display: block;
+  }
+  #myTopnav{
+  	margin-left: 12%;
+  }
+  .topnav li{
+  	font-size: 15pt;
+  	margin-left: 7px;
+  }
+} 
+
+@media (max-width: 1060px) and (min-width: 960px) {
+  .mobile{
+  	display: none;
+  }
+  .desktop{
+  	display: block;
+  }
+  #myTopnav{
+  	margin-left: 14%;
+  }
+  .topnav li{
+  	font-size: 16pt;
+  	margin-left: 9px;
+  }
+} 
+
+@media (max-width: 1180px) and (min-width: 1060px) {
+  .mobile{
+  	display: none;
+  }
+  .desktop{
+  	display: block;
+  }
+  #myTopnav{
+  	margin-left: 16%;
+  }
+  .topnav li{
+  	font-size: 17pt;
+  	margin-left: 10px;
+  }
+} 
+@media (max-width: 1300px) and (min-width: 1180px) {
+  .mobile{
+  	display: none;
+  }
+  .desktop{
+  	display: block;
+  }
+  #myTopnav{
+  	margin-left: 18%;
+  }
+  .topnav li{
+  	font-size: 18pt;
+  	margin-left: 11px;
+  }
+} 
+
+@media (max-width: 1400px) and (min-width: 1300px) {
+  .mobile{
+  	display: none;
+  }
+  .desktop{
+  	display: block;
+  }
+  #myTopnav{
+  	margin-left: 20%;
+  }
+  .topnav li{
+  	font-size: 19pt;
+  	margin-left: 12px;
+  }
+} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1400px) {
+  .mobile{
+  	display: none;
+  }
+  .desktop{
+  	display: block;
+  }
+  #myTopnav{
+  	margin-left: 22%;
+  }
+  .topnav li{
+  	font-size: 20pt;
+  	margin-left: 13px;
+  }
+}

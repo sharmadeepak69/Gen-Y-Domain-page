@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+  <head>
+  	<link rel="stylesheet" type="text/css" href="css/domain.css">
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <title>Android</title>
+  </head>
+  <body>
+  	<div class="container">
+  		<div class="row">
+  			<div class="col-lg-3">
+  				<div class="heading">&#9644;domains</div><br>
+  				<img class="main-logo" src="images/dummyImage.jpg">
+  				<br><div id="domain_name">AppDevLogo</div>
+  			</div>
+  			<div class="col-lg-9"><br><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quia dolori non voluptas contraria est, sed doloris privatio. Nos paucis ad haec additis finem faciamus aliquando; Duo Reges: constructio interrete. Traditur, inquit, ab Epicuro ratio neglegendi doloris. Qui non moveatur et offensione turpitudinis et comprobatione honestatis? Nihilo beatiorem esse Metellum quam Regulum. Stoici autem, quod finem bonorum in una virtute ponunt, similes sunt illorum; Atque haec coniunctio confusioque virtutum tamen a philosophis ratione quadam distinguitur. Respondent extrema primis, media utrisque, omnia omnibus.</div>
+  			<div id="members">Members</div>
+  		</div>
+  	<br>
+  	</div>
+  	<div class="container">
+  		<div class="row">
+  			<div class="col-lg-5">
+  				<div class="heading">&#9644;projects</div><br>
+  				<div class="right-arrow">&#9658;<span class="project-list">MRUDUMITRA</span></div>
+  				<div class="content">
+  					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quia dolori non voluptas contraria est, sed doloris privatio. Nos paucis ad haec additis finem faciamus aliquando; Duo Reges: constructio interrete. Traditur, inquit, ab Epicuro ratio neglegendi doloris. Qui non moveatur et offensione turpitudinis et comprobatione honestatis? Nihilo beatiorem esse Metellum quam 
+  				</div>
+
+  				<div class="right-arrow">&#9658; <span class="project-list"> SRM EZY</span></a>
+  					<div class="content">
+  						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+					</div>
+  				</div>
+  				<div class="content">
+  						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+				</div>
+  				<div class="right-arrow">&#9658; <span class="project-list"> HOME BUDGET</span></a> </div>
+  				<div class="content">
+  						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+				</div>
+  				<div class="right-arrow">&#9658; <span class="project-list">JOB STALKER</span></a></div>
+  				<div class="content">
+  						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+				</div>
+  				<div class="right-arrow">&#9658; <span class="project-list">DATA AGGREGATOR</span></a></div>
+  				<div class="content">
+  						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+				</div>
+  			</div>
+  			<div class="col-lg-7">
+  				
+  			
+
+  			</div>
+
+  		</div>
+  	</div>
+  	<div class="container">
+  		<div class="row">
+  			<div class="col-lg-9">
+  				<br>
+  				<div class="heading">&#9644;other domains</div>
+  				<a href="#"><img class="other-logos" src="images/dummyImage.jpg"></a>
+  				<a href="#"><img class="other-logos" src="images/dummyImage.jpg"></a>
+  				<a href="#"><img class="other-logos" src="images/dummyImage.jpg"></a>
+  				<a href="#"><img class="other-logos" src="images/dummyImage.jpg"></a>
+  				<div ><a style="text-decoration: none" href="#"><span style="margin-left: 28px" class="other-domain-name">WebDev</span></a><a style="text-decoration: none"href="#"><span style="margin-left:37px" class="other-domain-name">ML&AI</span><a style="text-decoration: none"href="#"><span style="margin-left: 30px"class="other-domain-name">Corporate</span></a><a style="text-decoration: none"href="#"><span style="margin-left: 15px"class="other-domain-name">Creatives</span></a></div>
+  			</div>
+  			<div class="col-lg-3">
+  				<div class="vl"><span class="service">Like our work? 
+  					<div class="buttons">
+		    				<button onclick="window.location.href='/page2'" id="request">REQUEST SERVICE</button>
+		    		</div>
+
+
+  				
+  				</div>
+  			</div>
+  	</div>
+  	<script>
+var coll = document.getElementsByClassName("right-arrow");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  });
+}
+</script>
+  	<script type="text/javascript" href="js/domain.js"></script>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>
